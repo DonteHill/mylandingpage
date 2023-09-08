@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about Donte Hill and his continous career development by exploring the Welcome to my Landing Page webpae">
+  <meta name="keywords" content="about Donte Hill career development Landing Page">
+  <title>Landing Page</title>
+  <link rel="icon" type="image/x-icon" href="https://st2.depositphotos.com/1032577/5312/i/450/depositphotos_53128333-stock-photo-about-me-sign.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js"></script>
+
+</head>
+
+<body style="background-color: lightgrey;">
+  <center>
+    <h1>Welcome to my Landing Page</h1>
+    <h2>Donte' Hill</h2>
+  </center>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Welcome to my Landing Page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- modify to include Bootstrap's navbar -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="about-us.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.single-products.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact</a>
+          </li>
+        </ul>
+
+        <div class="container">
+          <p class="mode-status">Currently in Light Mode</h>
+            <label class="toggle-switch">
+              <input type="checkbox" id="mode-toggle">
+              <span class="slider"></span>
+            </label>
+        </div>
+
+        <!-- modify subscribe button to open modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: black;">Subscribe</button>
+        <!-- add modal markup here -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Full name">
+                  <label for="floatingInput">Full name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  </header>
+
+  <div class="flex-container">
+    <div>
+      <h2><u>Home (Intro)</u></h2>
+      <p>Within this webpage you will be able to read and interact with the content/links. The content/links within this webpage will give you an opportunity to learn more about myself and my current experience as a Correlation One student. If you are intrigued and want a chance to sign up and learn more please provide your contact information below. </p>
+      <h2><u>About Me</u></h2>
+      <p>My name is Donte Hill. I am 24 years old and the youngest of 3 children. I was raised in China Grove, NC where I found my passion for sports. With plans to stay involved in sports as I grew up, I continued my education at <a href="https://news.ecu.edu/2020/11/30/great-sport/" target="_blank">East Carolina University</a> and recieved my bachelor's degree in Sports Studies with a minor in Psychology. I graduated during the pandemic and that had an affect on my plans for sports, but it ultimately lead me to Amazon and into a new interest for technology.</p>
+      <h2><u>Blog</u></h2>
+      <p>Following graduation, I began working at Amazon in May of 2021 as a picker. While working as a picker I had the opportunity to become a learning ambassador & progress to a learning trainer in August of 2022. As I continue to develop within my career, I am happy to be a part of Correlation One. Since joining Correlation One I have had an opportunity to be hands on and build on the prior knowledge that I gained on HTML through <a href="https://www.freecodecamp.org/learn/?messages=success%5B0%5D%3Dflash.signin-success" target="_blank">freecodecamp.org </a>. The most interesting and challenging thing that I have learned so far is formatting (spacing and alignments) and making sure that I can format or structure my content to my liking but also make it easily accessible to viewers.
+    </div>
+    <div>
+      <img src="https://media.licdn.com/dms/image/C4D03AQFR4QLjU47IBw/profile-displayphoto-shrink_800_800/0/1647961127945?e=2147483647&v=beta&t=xNm5Bgp0RAUrsuPvSl6xZ3mSY2CuvqBhOWo1JXOKwCs" alt="image 1">
+    </div>
+  </div>
+  <br></br>
+  <center>
+    <div class="card" style="width: 20rem;">
+      <div class="card-body">
+        <h5 class="card-title">Contact Card</h5>
+        <p class="card-text">
+          <label for="First Name:">First Name:</label>
+          <input type="text" id="First Name:"></input><br></br>
+
+          <label for="Last Name:">Last Name:</label>
+          <input type="text" id="Last Name:"></input><br></br>
+
+          <label for="Email:">Email-address:</label>
+          <input type="text" id="Email:">
+          </input><br></br>
+
+          <label for="Phone:">Phone Number:</label>
+          <input type="text" id="Phone:">
+          </input><br></br>
+
+          <input type="checkbox" id="Subscription" name="Subscription" value="Subscription">
+          <label for="Subscription">Check if you would like to signup and subscribe to informational emails and/or text messages. Data rates may apply.</label>
+          <br></br>
+
+        <div class="button">
+          <button class="Submit">Submit</button>
+        </div>
+  </center>
+  </div>
+  </div>
+
+  <center>
+    <img src="social media.png" usemap="#image_map" alt="Social Media">
+    <map name="image_map">
+      <area alt="Donte's Facebook" title="Donte's Facebook" href="https://www.facebook.com/donte.hill.52" coords="5,287,287,617" shape="rect">
+      <area alt="Donte's Instagram" title="Donte's Instagram" href="https://www.instagram.com/_dontehill/?igshid=MzRIODBiNWFIZA%3D%3D" coords="290,285,596,619" shape="rect">
+      <area alt="Donte's Twitter" title="Donte's Twitter" href="https://twitter.com/_DonteHill" coords="600,284,912,623" shape="rect">
+    </map>
+  </center>
+
+  <center>
+    <p>Facebook: Donte' Hill | Instagram & Twitter: _dontehill</p>
+  </center>
+
+</body>
+<footer align="center">Copyright © All Rights Reserved to Author: Donte D. Hill | Privacy Policy | Terms of Uses
+</footer>
+
+</html>
